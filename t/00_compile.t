@@ -1,6 +1,8 @@
-use strict;
-use Test::More tests => 1;
+use Test::AllModules;
 
-BEGIN {
-    use_ok 'Win32Test';
-}
+all_ok(
+    search_path => 'Win32Test',
+    use_ok      => 1,
+    fork        => 0,
+    shuffle     => 1,
+);

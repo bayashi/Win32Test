@@ -30,3 +30,4 @@
 ^MYMETA\.*$
 ^Win32Test-*^MYMETA\.yml$
 ^MYMETA\.json$
+^MYMETA\.yml$
