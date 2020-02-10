@@ -21,22 +21,16 @@ my $builder = Module::Build->new(
         'Module::Build' => 0.40,
     },
     test_requires => {
-        'File::Basename' => 0,
-        'YAML' => '1.15',
-        'List::Util' => 0,
         'Test::More' => '1.3',
         'Test::AllModules' => '0.17',
-        'Capture::Tiny' => 0,
         %win_build_requires,
     },
     requires => {
         'perl' => '5.008005',
         'strict' => 0,
         'warnings' => 0,
+        'Carp' => 0,
         'Module::Pluggable::Object' => 0,
-        'Pod::Usage' => 0,
-        'Getopt::Long' => 0,
-        'JSON' => 0,
     },
     meta_merge     => {
       resources => {
