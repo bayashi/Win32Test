@@ -1,0 +1,50 @@
+=encoding utf8
+
+
+This is Perl module B<Win32Test>.
+
+=begin html
+
+<a href="https://github.com/bayashi/Win32Test/blob/master/LICENSE"><img src="https://img.shields.io/badge/LICENSE-Artistic%202.0-GREEN.png"></a> <a href="https://github.com/bayashi/Win32Test/actions"><img src="https://github.com/bayashi/Win32Test/workflows/build/badge.svg?branch=master"/></a> <a href="https://coveralls.io/r/bayashi/Win32Test"><img src="https://coveralls.io/repos/bayashi/Win32Test/badge.png?branch=master"/></a>
+
+=end html
+
+
+=head1 INSTALLATION
+
+Win32Test installation is straightforward. If your CPAN shell is set up,
+you should just be able to do
+
+    % cpan Win32Test
+
+Download it, unpack it, then build it as per the usual:
+
+    % perl Makefile.PL
+    % make && make test
+
+Then install it:
+
+    % make install
+
+
+=head1 DOCUMENTATION
+
+Win32Test documentation is available as in POD. So you can do:
+
+    % perldoc Win32Test
+
+
+=head1 REPOSITORY
+
+Win32Test is hosted on github
+L<http://github.com/bayashi/Win32Test>
+
+
+=head1 LICENSE
+
+C<Win32Test> is free software; you can redistribute it and/or modify it under the terms of the Artistic License 2.0. (Note that, unlike the Artistic License 1.0, version 2.0 is GPL compatible by itself, hence there is no benefit to having an Artistic 2.0 / GPL disjunction.) See the file LICENSE for details.
+
+
+=head1 AUTHOR
+
+Dai Okabayashi E<lt>bayashi@cpan.orgE<gt>
