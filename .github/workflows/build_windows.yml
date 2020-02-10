@@ -26,6 +26,7 @@ jobs:
         run: |
             dir
             perl -e "print join(' ', @INC);"
+            perl -e "print `dir $_` for @INC;"
       - name: Run build
         run: |
             perl Build.PL
